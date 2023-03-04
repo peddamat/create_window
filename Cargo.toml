@@ -1,10 +1,10 @@
 [package]
-name = "sample_create_window"
+name = "create_window"
 version = "0.0.0"
 edition = "2018"
 
 [dependencies.windows]
-path = "../../../libs/windows"
+version = "0.*"
 features = [
     "Win32_Foundation",
     "Win32_Graphics_Gdi",
